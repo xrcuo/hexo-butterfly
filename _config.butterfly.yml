@@ -3,9 +3,9 @@
 # --------------------------------------
 
 nav:
-  logo: https://cache.aqco.top/static/blog/img/even.png # image
+  logo: # image
   display_title: true
-  fixed: true # fixed navigation bar
+  fixed: false # fixed navigation bar
 
 # Menu 目錄
 menu:
@@ -230,7 +230,7 @@ aside:
       text: 前往小窝
       link: https://github.com/xrcuo
   card_announcement:
-    enable: true
+    enable: false
     content: <center><b>--- 主域名 ---<br><a href="https://blog.aqco.top" title="此线路部署于Vercel" class="anno_content"></center>
   card_recent_post:
     enable: false
@@ -843,36 +843,36 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
-  per_page: true
+  enable: true
+  per_page: false
 
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
-  position: bottom-left
+  enable: true
+  position: top-right
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
