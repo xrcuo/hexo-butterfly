@@ -910,9 +910,12 @@ inject:
   head:
     - <link rel="stylesheet" href="/css/rightmenu.css">
     - <link rel="stylesheet" href="/css/iconfont.css">
+    - <link rel="stylesheet" href="/css/bg.css">
   bottom:
     - <script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script defer data-pjax src="/js/rightmenu.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script> # 添加此行
+    - <script src="/js/bg.js"></script> # 这个代表自定义js，放在最下面
 
 
 # CDN
