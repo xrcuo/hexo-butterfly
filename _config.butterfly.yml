@@ -637,7 +637,11 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://cache.aqco.top/static/api/img/dm/1280.jpg)
+background:
+  default: url(https://cache.aqco.top/static/blog/img/home_bg.webp) #【必选】默认背景
+  darkmode: url(https://cache.aqco.top/static/blog/img/dark_mode.webp) #【可选】PC端夜间模式背景
+  mobileday: url(https://cache.aqco.top/static/blog/img/snow.webp) #【可选】移动端日间默认背景
+  mobilenight: url(https://cache.aqco.top/static/blog/img/mb8.webp) #【可选】移动端夜间模式背景
 
 # Footer Background
 footer_bg: false
