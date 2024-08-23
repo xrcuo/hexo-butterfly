@@ -917,6 +917,7 @@ inject:
     - <script defer data-pjax src="/js/rightmenu.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script> # 添加此行
     - <script src="/js/bg.js"></script> # 这个代表自定义js，放在最下面
+    - <script src="/js/light.js"></script> 
 
 
 # CDN
