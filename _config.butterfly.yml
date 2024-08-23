@@ -682,7 +682,7 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
@@ -908,11 +908,19 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="/css/custom.css">
     - <link rel="stylesheet" href="/css/rightmenu.css">
     - <link rel="stylesheet" href="/css/iconfont.css">
+    - <link rel="stylesheet" href="/css/bg.css">
+    - <link rel="stylesheet" href="/css/universe.css">
   bottom:
     - <script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script defer data-pjax src="/js/rightmenu.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script> # 添加此行
+    - <script src="/js/bg.js"></script> # 这个代表自定义js，放在最下面
+    - <script src="/js/light.js"></script> 
+    - <canvas id="universe"></canvas>
+    - <script defer src="/js/universe.js"></script>
 
 
 # CDN
