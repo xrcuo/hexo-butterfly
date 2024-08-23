@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "hexo": "^7.3.0",
+    "hexo-blog-encrypt": "^3.1.9",
     "hexo-butterfly-article-double-row": "^1.0.2",
     "hexo-butterfly-swiper": "^1.0.12",
     "hexo-butterfly-tag-plugins-plus": "^1.0.18",
@@ -21,6 +22,7 @@
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-tag": "^2.0.0",
+    "hexo-pdf": "^1.1.1",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-kramed": "^0.1.4",
     "hexo-renderer-pug": "^3.0.0",
