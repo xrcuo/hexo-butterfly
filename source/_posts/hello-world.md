@@ -1,11 +1,13 @@
 ---
-title: Hello World
+title: Markdown语法与外挂标签写法汇总
+description: 🥧本文汇总Markdown格式以及外挂标签在网页端的渲染效果，可作为文档进行查询
+mathjax: true
 tags:
   - hexo
 swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 cover: 'https://cache.aqco.top/static/api/img/dm/508.jpg'
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Welcome to [Hexo].
 
 ## Quick Start
 
