@@ -185,3 +185,11 @@ div#archive {
 .page:not(.page.home) .aside-content {
     display: none;
 }
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 3em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
