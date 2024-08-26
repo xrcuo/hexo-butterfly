@@ -24,14 +24,8 @@ jobs:
       - name: Build hexo
         run: npm run build
 
-      - name: Zip the built hexo
-        run: |
-          cd public
-          zip -r dist.zip dist
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@master
-        if: ${{ !github.head_ref }}
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3.1.3
         with:
-          name: ${{ matrix.goos }}_${{ matrix.goarch }}
-          path: /public/dist.zip
+          name: hexo
+          path: dist
