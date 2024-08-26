@@ -78,6 +78,7 @@
     transition: text-shadow 1s linear !important;
 }
 
+/* ================= */
 
 
 /* 首页文章卡片 */
@@ -124,6 +125,8 @@ div#archive {
 [data-theme="dark"] div#page {
     background: var(--trans-dark);
 }
+
+/* ================= */
 
 
 /* 夜间模式页脚页头遮罩透明 */
