@@ -78,6 +78,7 @@
     transition: text-shadow 1s linear !important;
 }
 
+/* ================= */
 
 
 /* 首页文章卡片 */
@@ -124,6 +125,8 @@ div#archive {
 [data-theme="dark"] div#page {
     background: var(--trans-dark);
 }
+
+/* ================= */
 
 
 /* 夜间模式页脚页头遮罩透明 */
@@ -193,3 +196,45 @@ div#archive {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* 字体引入 */
+@font-face {
+    font-family: YSHST;
+    src: url(https://sourcebucket.s3.bitiful.net/fonts/优设好身体.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MiSans;
+    src: url(https://sourcebucket.s3.bitiful.net/fonts/MiSans.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HYTMR;
+    src: url(https://sourcebucket.s3.bitiful.net/fonts/HYTangMeiRen55W.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: LXGW;
+    src: url(https://sourcebucket.s3.bitiful.net/fonts/霞鹜文楷.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: TTQHB;
+    src: url(https://sourcebucket.s3.bitiful.net/fonts/甜甜圈海报字体.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Consolas_1;
+    src: url(https://sourcebucket.s3.bitiful.net/fonts/Consolas.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: ZhuZiAWan;
+    src: url(https://sourcebucket.s3.bitiful.net/fonts/fonts/ZhuZiAWan2.woff2);
+    font-display: swap;
