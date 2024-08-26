@@ -922,7 +922,7 @@ inject:
     - <link rel="stylesheet" href="/css/universe.css">
     - <link rel="stylesheet" href="/css/fps.css">
     - <span id="fps"></span>
-    - <link rel="stylesheet" href="/css/w.css">
+    - <link rel="stylesheet" href="/css/kslink.css">
   bottom:
     - <script defer src="https://cache.iuxcn.cn/static/hexo-butterfly/dist/jquery.min.js"></script>
     - <script defer data-pjax src="/js/rightmenu.js"></script>
