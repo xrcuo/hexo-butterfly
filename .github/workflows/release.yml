@@ -24,11 +24,11 @@ jobs:
       - name: Build hexo
         run: |
           npm run build
-          zip -r public.zip public
+          zip -r hexo.zip public
 
       - name: Run GoReleaser
         uses: ncipollo/release-action@v1
         with:
-          artifacts: public.zip
+          artifacts: hexo.zip
           allowUpdates: true
           token: ${{ secrets.GITHDSQ_TOKEN }}
