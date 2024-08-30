@@ -1,9 +1,14 @@
 :root {
-    --trans-light: rgba(255, 255, 255, 0.88);
+    --trans-light: rgba(253, 253, 253);
     --trans-dark: rgba(25, 25, 25, 0.88);
     --border-style: 1px solid rgb(169, 169, 169);
     /*--backdrop-filter: blur(5px) saturate(150%);*/
     --backdrop-filter: none;
+    --color-blue: rgb(102, 204, 255);
+    --color-gray: rgb(226, 226, 226);
+    --color-green: rgb(57, 197, 187);
+
+    --scrollbar-color: rgb(57, 197, 187);
 }
 
 /* 页脚与头图透明 */
