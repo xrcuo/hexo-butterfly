@@ -29,6 +29,10 @@ jobs:
       - name: Run GoReleaser
         uses: ncipollo/release-action@v1
         with:
+          tag_name: hexo_${{ env.CURRENT_TIME }}
+          name: hexo_${{ env.CURRENT_TIME }}
+          draft: false
+          prerelease: false
           artifacts: hexo.zip
           allowUpdates: true
           token: ${{ secrets.GITHDSQ_TOKEN }}
