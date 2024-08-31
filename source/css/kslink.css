@@ -155,9 +155,7 @@ blockquote {
     scale: 1.03;
 }
 
-*::selection {
-    background: var(--theme-color);
-}
+
 
 #aside-content #card-toc .toc-content .toc-link.active {
     background: var(--theme-color);
